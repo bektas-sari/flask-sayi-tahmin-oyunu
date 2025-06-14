@@ -1,38 +1,40 @@
-🎯 Sayı Tahmin Oyunu (Flask ile Web Uygulaması)
+# 🎯 Number Guessing Game (Web App with Flask)
 
-Bu proje, Flask framework kullanılarak oluşturulmuş **modern ve kullanıcı dostu** bir sayı tahmin oyunudur. Kullanıcı, 1 ile 100 arasında rastgele seçilen bir sayıyı tahmin etmeye çalışır.
+This project is a **modern and user-friendly** number guessing game built using the Flask framework. The player tries to guess a randomly chosen number between 1 and 100.
 
-✅ **Özellikler:**  
-- Kullanıcı **sınırsız tahmin hakkına** sahiptir.  
-- **Enter** tuşu ile tahmin yapılabilir, input **otomatik temizlenir ve odaklanır**.  
-- Mesajlar **formun altında şık bir şekilde görüntülenir**.  
-- **Tasarım**, modern ve kullanıcı dostu bir arayüze sahiptir.  
-- **JavaScript ile kesintisiz bir deneyim** sağlanır.  
+## ✅ Features
+
+* The user has **unlimited guessing attempts**.
+* You can guess by pressing the **Enter** key; the input **clears and refocuses automatically**.
+* Messages are **displayed neatly below the form**.
+* The **design** is clean, modern, and user-focused.
+* **JavaScript ensures a smooth and seamless experience**.
 
 ---
 
-## 📂 Proje Dosya Yapısı
+## 📂 Project Directory Structure
 
 ```
-flask_sayi_tahmin_oyunu/
-│── app.py                # Flask sunucu uygulaması  
-│── requirements.txt      # Bağımlılık dosyası  
+flask_number_guessing_game/
+│── app.py                # Flask server application
+│── requirements.txt      # Dependency file
 │── templates/
-│   └── index.html        # Web arayüzü  
+│   └── index.html        # Web interface
 │── static/
 │   ├── css/
-│   │   └── style.css     # Stil dosyası  
+│   │   └── style.css     # Style file
 │   └── js/
-│       └── script.js     # JavaScript fonksiyonları  
-│── README.md             # Proje açıklaması  
+│       └── script.js     # JavaScript functions
+│── README.md             # Project description
 ```
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+## 🚀 Setup and Run
 
-### **1️⃣ Gerekli Bağımlılıkları Yükleyin**  
-Aşağıdaki komut ile Flask'ı yükleyebilirsiniz:
+### **1️⃣ Install Required Dependencies**
+
+Install Flask using the following command:
 
 ```bash
 pip install flask
@@ -40,7 +42,7 @@ pip install flask
 
 ---
 
-### **2️⃣ Flask Uygulamasını Başlatın**
+### **2️⃣ Start the Flask Application**
 
 ```bash
 python app.py
@@ -48,8 +50,9 @@ python app.py
 
 ---
 
-### **3️⃣ Tarayıcıdan Oyunu Oynayın**  
-Aşağıdaki bağlantıyı tarayıcıda açarak oyunu oynayabilirsiniz:
+### **3️⃣ Play the Game in Your Browser**
+
+Open the following URL in your browser:
 
 ```
 http://127.0.0.1:5000
@@ -57,39 +60,55 @@ http://127.0.0.1:5000
 
 ---
 
-## 🎨 Kullanım ve Oynanış
+## 🎨 How to Play
 
-1️⃣ **1 ile 100 arasında bir sayı tahmin edin ve giriş kutusuna yazın.**  
-2️⃣ **"Tahmin Et" butonuna basın veya Enter tuşuna basın.**  
-3️⃣ Eğer tahmin **yanlışsa**, şu mesajları alırsınız:  
-   - 🟥 **"X sayısı, tuttuğum sayıdan düşük! Daha yüksek bir sayı deneyin."**  
-   - 🟥 **"X sayısı, tuttuğum sayıdan yüksek! Daha düşük bir sayı deneyin."**  
-4️⃣ **Doğru tahmin yaptığınızda:**  
-   - 🟩 **"Tebrikler! Doğru tahmin ettiniz! 🎉"**  
-   - Yeni bir oyun başlatabilirsiniz.  
+1️⃣ **Enter a number between 1 and 100 in the input box.**
+2️⃣ **Click the "Guess" button or press Enter.**
+3️⃣ If your guess is **incorrect**, you will receive feedback such as:
 
----
-
-## 🛠️ Geliştirme ve Katkı  
-Bu proje açık kaynaklıdır. Geliştirmelere katkıda bulunmak için aşağıdaki adımları izleyebilirsiniz:
-
-1. **Bu depoyu forklayın**  
-2. **Kendi branch'inizi oluşturun:**  
-   ```bash
-   git checkout -b yeni-ozellik
-   ```
-3. **Değişiklikleri yapın ve commit atın:**  
-   ```bash
-   git commit -m "Yeni özellik eklendi"
-   ```
-4. **Değişiklikleri yükleyin:**  
-   ```bash
-   git push origin yeni-ozellik
-   ```
-5. **Pull request oluşturun!** 🎉  
+* 🟥 **"X is lower than the secret number! Try a higher number."**
+* 🟥 **"X is higher than the secret number! Try a lower number."**
+  4️⃣ If your guess is **correct**, you will see:
+* 🟩 **"Congratulations! You guessed the correct number! 🎉"**
+* You can then start a new game.
 
 ---
 
-## 📜 Lisans  
-Bu proje **MIT Lisansı** altında sunulmaktadır. 
-Mail:bektas.sari@gmail.com
+## 🛠️ Development and Contribution
+
+This project is open-source. Feel free to contribute by following the steps below:
+
+1. **Fork this repository**
+2. **Create your feature branch:**
+
+   ```bash
+   git checkout -b feature-name
+   ```
+3. **Make your changes and commit:**
+
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. **Push your changes:**
+
+   ```bash
+   git push origin feature-name
+   ```
+5. **Submit a pull request!** 🎉
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👤 Developer
+
+**Bektas Sari**
+Email: [bektas.sari@gmail.com](mailto:bektas.sari@gmail.com)
+GitHub: [bektas-sari](https://github.com/bektas-sari)
+LinkedIn: [linkedin.com/in/bektas-sari](https://www.linkedin.com/in/bektas-sari)
+ResearchGate: [Bektas Sari](https://www.researchgate.net/profile/Bektas-Sari-3)
+Academia: [Bektas Sari](https://independent.academia.edu/bektassari)
